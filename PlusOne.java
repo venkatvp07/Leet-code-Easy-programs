@@ -8,7 +8,7 @@ public class PlusOne {
     	int remaining = 1;
     	for(int i=len-1;i>=0;i--) {
     		if(needLoop) {
-    			int add = digits[i] + remaining;
+    			int add = digits[i] + remaining; 
         		if(add == 10) {
         			if(i == 0) {
         				dummy = new int[len+1];
